@@ -5,7 +5,7 @@
  * @param {!express:Response} res HTTP response context.
  */
  
- exports.ifidproxy = (req, res) => {
+ exports.githubifidproxy = (req, res) => {
     console.log("Request method here is :" + req.method);
     let message = 'All good';
     if (req.method === "GET"){
