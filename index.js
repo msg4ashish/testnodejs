@@ -6,7 +6,8 @@
  */
  
  exports.githubifidproxy = (req, res) => {
-    console.log("Request method here is :" + req.method);
+    console.log("Printing env variable causata host:" + process.env.CAUSATA_HOST);
+    console.log("Printing env variable causata port:" + process.env.CAUSATA_PORT);
     let message = 'All good';
     if (req.method === "GET"){
       message = req.query.message || req.body.message || 'All good!!';
