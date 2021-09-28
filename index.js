@@ -79,7 +79,7 @@
       }
 
 
-      res.status(200).send("All is well");
+      res.status(200).send("All is well, all is well");
    }
   
   };
